@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings
+    version="2.0"
+    xmlns="http://java.sun.com/xml/ns/persistence/orm"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_2_0.xsd">
+    <entity class="com.charbs.api.NameValue">
+         <named-query name="findValue">
+            <query>SELECT nv FROM Name_Vlaue nv WHERE nv.name = :name</query>
+         </named-query>
+         <attributes>
+            <id name="id"/>
+            <basic name="name">
+                <column name="NAME"/>
+            </basic>
+            <basic name="value">
+                <column name="VALUE"/>
+            </basic>
+         </attributes>
+    </entity>
+</entity-mappings>
