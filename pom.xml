@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.charbs.api</groupId>
 	<artifactId>NameValue</artifactId>
-	<version>1.1.3-SNAPSHOT</version>
+	<version>1.1.4-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<dependencies>
 		<dependency>
